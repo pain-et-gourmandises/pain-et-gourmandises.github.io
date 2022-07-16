@@ -126,6 +126,11 @@ svg{
   padding-bottom:24px;
 }
 
+.galery-mozaique img{
+  width:24%;
+  padding:1%;
+}
+
 /* Presentation*/
 
 .titrepage h1{
@@ -219,6 +224,13 @@ left:42%;
   padding-top:3%;
   text-decoration: underline;
   cursor:pointer;
+}
+
+/* footer */
+.footer {
+  text-align: center;
+  margin-top:70px;
+  margin-bottom:10px;
 }
 
 /* checkbox produits */
