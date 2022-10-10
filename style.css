@@ -116,7 +116,7 @@ svg{
 }
 
 .vide{
-  height: 80px;
+  height: 100px;
 }
 
 
@@ -237,6 +237,9 @@ left:42%;
 .description-cb {
 position:relative;
 }
+.description-cb p{
+  font-size:1.1rem;
+}
 
 .img-cb img{
   width:35%;
@@ -256,6 +259,8 @@ position:relative;
 .tartechocolat-cb,
 .foretnoire-label,
 .foretnoire-cb,
+.pavlova-cb,
+.pavlova-label,
 .royal-label,
 .royal-cb,
 .macarons-label,
@@ -308,6 +313,13 @@ position:relative;
 }
 .foretnoire-cb:checked ~ .descriptionforetnoire{
   display:block;
+}
+
+.descriptionpavlova{
+  display: none;
+}
+.pavlova-cb:checked ~ .descriptionpavlova{
+  display: block;
 }
 
 .descriptionroyal{
